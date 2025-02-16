@@ -3,24 +3,146 @@
 ## Overview
 A comprehensive portfolio analysis tool that generates detailed PDF reports with technical indicators, risk metrics, and market analysis.
 
-## Features
-- **Portfolio Performance Metrics**
-  - Beta, Sharpe Ratio, Sortino Ratio
-  - Risk metrics (VaR, Expected Shortfall)
-  - Kelly Criterion
-- **Market Analysis**
-  - Market indicators tracking
-  - Correlation analysis with heatmaps
-  - Monte Carlo simulations
-- **Income Analysis**
-  - Dividend analysis
-  - Income projections
-  - Geographic allocation analysis
-- **Technical Indicators**
-  - MACD indicators
-  - Moving averages (SMA/EMA)
-  - RSI
-  - Ichimoku Cloud
+## Portfolio Analysis Script Features
+
+### Data Retrieval & Market Analysis
+- Historical price data for portfolio securities
+- Benchmark index data (S&P 500)
+- Risk-free rate data from FRED
+- Market indicators tracking:
+  - Fed Funds Rate
+  - 10-Year Treasury Yield
+  - CPI and Core CPI
+  - Unemployment Rate
+  - GDP Growth
+  - ISM Manufacturing
+  - Consumer Confidence
+  - Retail Sales
+  - Housing Starts
+  - S&P 500 P/E Ratio
+  - VIX Index
+
+### Portfolio Performance Metrics
+- Total portfolio value
+- Portfolio weights
+- Daily returns
+- Portfolio beta
+- Sharpe ratio
+- Sortino ratio
+- Risk-adjusted returns
+- Portfolio concentration metrics
+- Historical performance tracking
+
+### Risk Analysis
+- Value at Risk (VaR):
+  - Historical VaR
+  - Parametric VaR
+  - Conditional VaR (Expected Shortfall)
+- Monte Carlo simulation:
+  - Future value projections
+  - Risk scenarios
+  - Confidence intervals
+- Kelly Criterion calculations
+- Stop loss analysis:
+  - ATR-based stops
+  - Trailing stops
+  - Position-size-weighted stops
+- Volatility metrics
+- Drawdown analysis
+
+### Correlation Analysis
+- Correlation matrix
+- Correlation heatmaps
+- Rolling correlations
+- Correlation stability metrics
+- High-volatility period correlations
+- Cross-asset correlations
+
+### Income Analysis
+- Dividend metrics:
+  - Dividend yield
+  - Dividend growth
+  - Annual dividend income
+  - Position-level income
+  - Portfolio-level yield
+- Income projections
+- Payout ratio analysis
+
+### Geographic Analysis
+- Revenue exposure by region
+- Geographic concentration (HHI)
+- Country/region allocation
+- Geographic diversification metrics
+
+### Sector Analysis
+- Sector allocation
+- Sector concentration
+- Sector performance contribution
+- Sector rotation analysis
+
+### Technical Indicators
+- Moving Averages:
+  - Simple Moving Averages (10, 20, 50, 100, 200 days)
+  - Exponential Moving Averages (12, 26, 50, 200 days)
+  - Moving average crossovers
+  - Trend strength indicators
+- MACD (Moving Average Convergence Divergence):
+  - MACD line
+  - Signal line
+  - MACD histogram
+  - Trend signals
+- RSI (Relative Strength Index)
+- Ichimoku Cloud Analysis:
+  - Tenkan-sen (Conversion Line)
+  - Kijun-sen (Base Line)
+  - Senkou Span A & B (Leading Spans)
+  - Chikou Span (Lagging Span)
+  - Cloud color analysis
+  - Trend strength indicators
+
+### Fundamental Analysis
+- Free Cash Flow Analysis:
+  - FCF metrics
+  - FCF margin
+  - FCF growth
+  - FCF yield
+- Valuation Ratios:
+  - P/E ratio
+  - P/B ratio
+  - EV/EBITDA
+- Financial Statement Analysis:
+  - Balance sheet metrics
+  - Income statement analysis
+  - Cash flow statement analysis
+
+### Reporting & Visualization
+- PDF Report Generation:
+  - Portfolio holdings summary
+  - Performance metrics
+  - Risk analysis
+  - Technical analysis
+  - Income analysis
+  - Geographic exposure
+  - Market indicators
+- Data Visualization:
+  - Correlation heatmaps
+  - Monte Carlo simulation paths
+  - Sector allocation pie charts
+  - Performance charts
+  - Technical indicator charts
+
+### Error Handling & Logging
+- Comprehensive error handling
+- Production-level logging
+- Diagnostic information
+- Error recovery mechanisms
+
+### Configuration & Setup
+- Environment variable management
+- API key configuration
+- Portfolio configuration
+- Customizable parameters
+- Flexible date ranges
 
 ## Setup
 1. Clone the repository:
