@@ -125,8 +125,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 5. Open a Pull Request
 
 ## Contact
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- Email: yunxiaoson98@gmail.com
 
 ## Disclaimer
 This tool is for informational purposes only and should not be considered as financial advice. Always conduct your own research and due diligence before making investment decisions.
